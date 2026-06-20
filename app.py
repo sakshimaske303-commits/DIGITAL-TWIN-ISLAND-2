@@ -210,19 +210,19 @@ st.header("🌎 Study Region Coverage")
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-st.metric("🇲🇻 Maldives", "20 Atolls")
+    st.metric("🇲🇻 Maldives", "20 Atolls")
 
 with col2:
-st.metric("🇮🇳 Lakshadweep", "36 Islands")
+    st.metric("🇮🇳 Lakshadweep", "36 Islands")
 
 with col3:
-st.metric("🇸🇨 Seychelles", "115 Islands")
+    st.metric("🇸🇨 Seychelles", "115 Islands")
 
 with col4:
-st.metric("🇫🇯 Fiji", "330+ Islands")
+    st.metric("🇫🇯 Fiji", "330+ Islands")
 
 with col5:
-st.metric("🇪🇸 Canary Islands", "8 Islands")
+    st.metric("🇪🇸 Canary Islands", "8 Islands")
 # FOOTER
 
 st.markdown("---")
