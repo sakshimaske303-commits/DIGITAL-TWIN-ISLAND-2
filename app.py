@@ -166,13 +166,13 @@ st.header("🏗️ Digital Twin Architecture")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-st.info("🌊 Environmental Layer")
+    st.info("🌊 Environmental Layer")
 
 with col2:
-st.info("🌿 Ecological Layer")
+    st.info("🌿 Ecological Layer")
 
 with col3:
-st.info("🏘️ Socio-Economic Layer")
+    st.info("🏘️ Socio-Economic Layer")
 
 st.info("🧠 Integrated Climate Simulation Engine")
 
