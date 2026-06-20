@@ -140,86 +140,89 @@ with col2:
 
     • Critical Facilities
     """)
+    st.markdown("---")
 
-# PROJECT WORKFLOW
+st.header("🎯 Project Objectives")
 
-st.markdown("---")
+st.markdown("""
 
-st.header("🧩 Project Workflow")
+1. Develop a Digital Twin Framework for climate-vulnerable island systems.
 
-st.success("Phase 1 : Spatial Database Development")
+2. Assess future environmental and socio-economic impacts under climate change.
 
-st.success("Phase 2 : Environmental System Development")
+3. Simulate interactions between ecological, economic and human systems.
 
-st.success("Phase 3 : Socio-Economic System Development")
+4. Identify vulnerability hotspots and resilience pathways.
 
-st.success("Phase 4 : Integrated Database Development")
+5. Support adaptation planning and climate-risk assessment.
 
-st.success("Phase 5 : Climate Simulation Modelling")
-
-st.success("Phase 6 : Digital Twin Development")
-
-st.success("Phase 7 : Interactive Dashboard Development")
-
-st.success("Phase 8 : Research Outputs & Policy Framework")
-
-# OUTPUTS
+6. Create a transferable framework applicable to island regions worldwide.
+   """)
 
 st.markdown("---")
 
-st.header("📊 Expected Outputs")
+st.header("🏗️ Digital Twin Architecture")
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.metric("Study Regions", "5")
+st.info("🌊 Environmental Layer")
 
 with col2:
-    st.metric("Climate Scenarios", "3")
+st.info("🌿 Ecological Layer")
 
 with col3:
-    st.metric("Integrated Systems", "4")
+st.info("🏘️ Socio-Economic Layer")
 
-st.write("""
-✅ Island Vulnerability Atlas
+st.info("🧠 Integrated Climate Simulation Engine")
 
-✅ Flood Risk Assessment
-
-✅ Infrastructure Exposure Analysis
-
-✅ Tourism Vulnerability Assessment
-
-✅ Population Exposure Mapping
-
-✅ Resilience Score Framework
-
-✅ Climate Adaptation Recommendations
-
-✅ Interactive Digital Twin Dashboard
-""")
-
-# CURRENT STATUS
+st.info("📊 Decision Support & Resilience Assessment Framework")
 
 st.markdown("---")
 
-st.header("🚀 Current Development Status")
+st.header("📊 Expected Research Outputs")
 
-st.write("✅ Island Boundary Database")
+st.markdown("""
+• Island Vulnerability Atlas
 
-st.write("✅ Coral Reef Mapping")
+• Sea Level Rise Risk Maps
 
-st.write("✅ Mangrove Mapping")
+• Population Exposure Maps
 
-st.write("✅ Tourism Infrastructure Mapping")
+• Tourism Vulnerability Assessment
 
-st.write("✅ Environmental Layer Compilation")
+• Infrastructure Risk Assessment
 
-st.write("🔄 Climate Simulation Engine")
+• Coral Reef Health Assessment
 
-st.write("🔄 Interactive Dashboard Expansion")
+• Mangrove Protection Assessment
 
-st.write("🔄 Comparative Resilience Framework")
+• Climate Resilience Mapping
 
+• Comparative Island Ranking System
+
+• Interactive Digital Twin Dashboard
+""")
+st.markdown("---")
+
+st.header("🌎 Study Region Coverage")
+
+col1, col2, col3, col4, col5 = st.columns(5)
+
+with col1:
+st.metric("🇲🇻 Maldives", "20 Atolls")
+
+with col2:
+st.metric("🇮🇳 Lakshadweep", "36 Islands")
+
+with col3:
+st.metric("🇸🇨 Seychelles", "115 Islands")
+
+with col4:
+st.metric("🇫🇯 Fiji", "330+ Islands")
+
+with col5:
+st.metric("🇪🇸 Canary Islands", "8 Islands")
 # FOOTER
 
 st.markdown("---")
